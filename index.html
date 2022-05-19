@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Front end web development portfolio site for Romeo Jeremiah, hosted on Netlify."
+        />
+        <title>Romeo Jeremiah | Web Developer</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;500;600&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/styles.css" />
+        <link
+            rel="shortcut icon"
+            href="./img/favicon.ico"
+            type="image/x-icon"
+        />
+    </head>
+    <body>
+        <header class="header container">
+            <div class="logo">
+                <span class="logo--fname">Romeo</span>
+                <span class="logo--lname">Jeremiah</span>
+                <p class="logo-tag">Veteran. Author. Web Developer.</p>
+            </div>
+            <nav class="navigation">
+                <a class="nav-link" href="#home">Home</a>
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link" href="#process">My Process</a>
+                <a class="nav-link" href="#contact">Contact</a>
+            </nav>
+
+            <button class="btn-mobile-nav btn-open">
+                <ion-icon
+                    class="icon-mobile-nav"
+                    name="menu-outline"
+                ></ion-icon>
+            </button>
+            <button class="btn-mobile-nav btn-close">
+                <ion-icon
+                    class="icon-mobile-nav"
+                    name="close-outline"
+                ></ion-icon>
+            </button>
+        </header>
+        <main>
+            <section class="section-hero">
+                <div class="hero container">
+                    <div class="hero-text">
+                        <h1 class="heading">
+                            Hello, I'm
+                            <span class="hero-text-fname">Romeo</span>!
+                        </h1>
+                        <p>
+                            I'm a
+                            <a
+                                class="link"
+                                href="https://www.amazon.com/author/romeojeremiah"
+                                target="_blank"
+                                >personal finance author</a
+                            >
+                            and professional web developer who loves building
+                            awesome things for the web.
+                        </p>
+                        <a href="#contact" class="btn hero-btn"
+                            >Get in touch!</a
+                        >
+                        <div>
+                            <ul class="hero-socials">
+                                <li alt="Github social icon">
+                                    <a
+                                        href="https://github.com/romeojeremiah"
+                                        target="_blank"
+                                        class="social--link"
+                                        ><ion-icon
+                                            class="social"
+                                            name="logo-github"
+                                        ></ion-icon
+                                    ></a>
+                                </li>
+                                <li alt="Twitter social icon">
+                                    <a
+                                        href="https://twitter.com/RomeoJeremiah"
+                                        target="_blank"
+                                        class="social--link"
+                                        ><ion-icon
+                                            class="social"
+                                            name="logo-twitter"
+                                        ></ion-icon
+                                    ></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <picture>
+                            <source
+                                srcset="img/romeo-jeremiah.webp"
+                                type="image/webp"
+                            />
+                            <source
+                                srcset="img/romeo-jeremiah.png"
+                                type="image/webp"
+                            />
+                            <img
+                                class="profile-img"
+                                src="img/romeo-jeremiah.png"
+                                alt="Image of Romeo Jeremiah smiling while wearing a suit"
+                            />
+                        </picture>
+                    </div>
+                </div>
+            </section>
+            <section class="section-about" id="about">
+                <div class="container about">
+                    <h2 class="heading-secondary">
+                        <span class="about-heading">About Me</span>
+                    </h2>
+                    <div class="about-flex">
+                        <div>
+                            <ion-icon
+                                class="about-icon"
+                                name="boat-outline"
+                            ></ion-icon>
+                            <p>
+                                I'm a husband, father, and a military veteran
+                                who served for more than 20 years in the United
+                                States Navy. I was an Radioman for 7 years, a
+                                Submarine Officer for 6 years, and finished my
+                                career in Human Resources. I also authored two
+                                personal finance books, the last of which,
+                                <em>The Wealth Number</em>, helped me pursue the
+                                current skillset that I love.
+                            </p>
+                        </div>
+                        <div>
+                            <ion-icon
+                                class="about-icon"
+                                name="desktop-outline"
+                            ></ion-icon>
+                            <p>
+                                I've been building front-end content and
+                                projects on the Internet using HTML, CSS, and
+                                JavaScript since 2011. I also have back-end
+                                application development experience using Node,
+                                SQL, and MongoDB. My preferred development stack
+                                is MERN (MongoDB, Express, React, and Node).
+                            </p>
+                        </div>
+                        <div>
+                            <ion-icon
+                                class="about-icon"
+                                name="tv-outline"
+                            ></ion-icon>
+                            <p>
+                                A few of my favorite television shows were
+                                <em
+                                    >Mr. Robot, Silicon Valley, The Wire, and
+                                    Breaking Bad.</em
+                                >
+                                Now, if I get a chance to watch television, it's
+                                usually Shark Tank, Better Call Saul, or Grey's
+                                Anatomy.
+                            </p>
+                        </div>
+                        <div>
+                            <ion-icon
+                                class="about-icon"
+                                name="cash-outline"
+                            ></ion-icon>
+                            <p>
+                                When I'm not working on web projects, you can
+                                usually find me taking a Udemy course, creating
+                                personal finance content, browsing Twitter, or
+                                reading memes on the subreddit,
+                                <em>WallStreetBets</em>."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-projects" id="projects">
+                <div class="container projects">
+                    <h2 class="heading-secondary">
+                        <span class="project-heading">Projects</span>
+                    </h2>
+                    <p>Here are a few projects I've created:</p>
+                    <div class="project-grid">
+                        <!--grid item-->
+                        <div class="project-item">
+                            <a
+                                href="https://omnifood-portfolio-site.netlify.app/"
+                                target="_blank"
+                            >
+                                <img
+                                    class="project-img"
+                                    src="img/omnifood.jpg"
+                                    alt="Image of Omnifood portfolio website"
+                                />
+                            </a>
+                        </div>
+                        <div class="project-item"></div>
+                        <div class="project-item"></div>
+                        <div class="project-item"></div>
+                        <div class="project-item"></div>
+                        <div class="project-item"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-process" id="process">
+                <h2 class="heading-secondary process-heading">
+                    How I
+                    <span class="process-heading-span">Build Great</span>
+                    Websites
+                </h2>
+                <div class="process container">
+                    <article class="process-item">
+                        <h3 class="process-step">Define</h3>
+                        <p>
+                            I ask you who your website is for, talk through your
+                            business and user goals, and get a understanding of
+                            your website's target audience.
+                        </p>
+                        <span class="number">1</span>
+                    </article>
+                    <article class="process-item">
+                        <h3 class="process-step">Plan</h3>
+                        <p>
+                            I plan and gather your website's content, plan out
+                            your sitemap, and plan sections of the website based
+                            on the message you want to convey to your audience.
+                        </p>
+                        <span class="number">2</span>
+                    </article>
+                    <article class="process-item">
+                        <h3 class="process-step">Sketch</h3>
+                        <p>
+                            I think about the website components your site may
+                            need, get inspiration for the design and sketch out
+                            ideas to get them out of my head. This is an
+                            iterative process that welcomes your feedback.
+                        </p>
+                        <span class="number">3</span>
+                    </article>
+                    <article class="process-item">
+                        <h3 class="process-step">Design and Build</h3>
+                        <p>
+                            I implement the design and build of your website
+                            using web technologies, based on your company's
+                            branding and the website personality that you want
+                            to convey.
+                        </p>
+                        <span class="number">4</span>
+                    </article>
+                    <article class="process-item">
+                        <h3 class="process-step">Test and Optimize</h3>
+                        <p>
+                            I make sure your website works well in all major
+                            browsers, test your website on mobile devices,
+                            optimize images, test for accessibility, and check
+                            your site's performance.
+                        </p>
+                        <span class="number">5</span>
+                    </article>
+                    <article class="process-item">
+                        <h3 class="process-step">Launch</h3>
+                        <p>
+                            Time to share your masterpiece with the world! I
+                            help you upload your website on the web and if it's
+                            your first time launching, I can even help you pick
+                            out a great domain name.
+                        </p>
+                        <span class="number">6</span>
+                    </article>
+                    <article class="process-item">
+                        <h3 class="process-step">Maintain and Update</h3>
+                        <p>
+                            Launching is not the end. If we continue to work
+                            together, I keep the website content updated over
+                            time, install analytics software, and optimize your
+                            website for Search Engines.
+                        </p>
+                        <span class="number">7</span>
+                    </article>
+                </div>
+            </section>
+            <section id="contact">
+                <div class="container form-box">
+                    <div class="form-box-text">
+                        <h2 class="heading-tertiary form-header">
+                            Send me a message
+                        </h2>
+                        <form
+                            action="#"
+                            class="contact-form"
+                            name="contact-form"
+                            netlify
+                        >
+                            <div>
+                                <label class="form-label" for="name"
+                                    >Name</label
+                                >
+                                <input
+                                    class="form-input"
+                                    type="text"
+                                    name="name"
+                                    id="name"
+                                    placeholder="John Smith"
+                                    required
+                                />
+                            </div>
+                            <div>
+                                <label class="form-label" for="email"
+                                    >Email</label
+                                >
+                                <input
+                                    class="form-input"
+                                    type="email"
+                                    name="email"
+                                    id="email"
+                                    placeholder="johnsmith@me.com"
+                                    required
+                                />
+                            </div>
+
+                            <textarea
+                                class="form-textarea"
+                                name="message"
+                                id="mesage"
+                                placeholder="Message"
+                                required
+                            ></textarea>
+
+                            <button class="btn-form">Submit</button>
+                        </form>
+                    </div>
+                    <div
+                        class="form-box-img"
+                        role="img"
+                        aria-label="Man typing on a keyboard"
+                    ></div>
+                </div>
+            </section>
+            <section class="section-footer">
+                <footer class="container">
+                    <p>
+                        Made with ❤️ in Atlanta. Copyright &copy;
+                        <span class="year">2022</span>.
+                    </p>
+                    <p>Romeo Jeremiah. All Rights Reserved.</p>
+                </footer>
+            </section>
+        </main>
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
+        <script src="./js/app.js"></script>
+    </body>
+</html>
