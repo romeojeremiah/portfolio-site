@@ -23,14 +23,13 @@
         />
     </head>
     <body>
-        <header class="header container">
+        <header class="header container" id="home">
             <div class="logo">
                 <span class="logo--fname">Romeo</span>
                 <span class="logo--lname">Jeremiah</span>
                 <p class="logo-tag">Veteran. Author. Web Developer.</p>
             </div>
             <nav class="navigation">
-                <a class="nav-link" href="#home">Home</a>
                 <a class="nav-link" href="#about">About</a>
                 <a class="nav-link" href="#projects">Projects</a>
                 <a class="nav-link" href="#process">My Process</a>
@@ -193,10 +192,10 @@
                     </h2>
                     <p>Here are a few projects I've created:</p>
                     <div class="project-grid">
-                        <!--grid item-->
+                        <!--single project item-->
                         <div class="project-item">
                             <a
-                                href="https://omnifood-portfolio-site.netlify.app/"
+                                href="https://rj-omnifood.netlify.app/"
                                 target="_blank"
                             >
                                 <img
@@ -206,7 +205,21 @@
                                 />
                             </a>
                         </div>
-                        <div class="project-item"></div>
+                        <!-- end of single project item-->
+                        <!--single project item-->
+                        <div class="project-item">
+                            <a
+                                href="https://rj-teastation.netlify.app/"
+                                target="_blank"
+                            >
+                                <img
+                                    class="project-img"
+                                    src="img/teastation.jpg"
+                                    alt="Image of Tea Station portfolio website"
+                                />
+                            </a>
+                        </div>
+                        <!-- end single project item-->
                         <div class="project-item"></div>
                         <div class="project-item"></div>
                         <div class="project-item"></div>
@@ -357,6 +370,13 @@
                     <p>Romeo Jeremiah. All Rights Reserved.</p>
                 </footer>
             </section>
+            <a href="#home" class="btn-top">
+                <ion-icon
+                    class="btn-top-icon"
+                    name="arrow-up-circle-outline"
+                ></ion-icon>
+                <p>Back to Top</p>
+            </a>
         </main>
         <script
             type="module"
